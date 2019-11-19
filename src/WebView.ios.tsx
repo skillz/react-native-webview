@@ -54,7 +54,6 @@ const RNCWebView: typeof NativeWebViewIOS = requireNativeComponent(
 
 class WebView extends React.Component<IOSWebViewProps, State> {
   static defaultProps = {
-    javaScriptEnabled: true,
     cacheEnabled: true,
     originWhitelist: defaultOriginWhitelist,
     useSharedProcessPool: true,
